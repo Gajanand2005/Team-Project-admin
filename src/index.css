@@ -1,0 +1,7 @@
+@import "tailwindcss";
+.MuiBadge-badge{
+    background-color: #ff5252 !important;
+}
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
