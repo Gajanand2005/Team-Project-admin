@@ -1,11 +1,37 @@
-body{font-family:"Montserrat", serif; background: #f1f1f1;}
-.MuiBadge-badge{background: #ff5252 !important;}
-
-.ReactCollapse--collapse{
-    transition: height 300ms;
+body{
+     font-family: "Roboto", sans-serif;
+     background: #f1f1f1;
 }
 
-::-webkit-scrollbar{width: 10px !important; height: 10px !important;}
-::-webkit-scrollbar-thumb{background: #ccc !important;}
-.btn-blue{background: #3872fa !important; color: #fff !important; padding: 8px 20px !important;}
-.btn-blue:hover{background: #3067e5 !important;}
+.MuiBadge-badge{
+    background-color: #fc3617ea !important;
+}
+
+.ReactCollapse--collapse {
+  transition: height 400ms;
+}
+
+.btn{
+  padding: 8px 20px !important;
+}
+.btn svg{
+  font-size: 20px;
+}
+.btn-blue{
+  background: #3872fa !important;
+  color: #fff !important;
+  padding: 8px 20px !important;
+}
+.btn-sm{
+  padding: 6px 20px !important;
+  font-size: 13px !important;
+}
+
+.btn-blue:hover{
+  background: rgb(22, 74, 195) !important;
+}
+
+.MuiAppBar-colorPrimary{
+  background-color:  #e6e6e6 !important;
+  color: black !important;
+}
