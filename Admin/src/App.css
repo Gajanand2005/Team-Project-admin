@@ -35,3 +35,15 @@ body{
   background-color:  #e6e6e6 !important;
   color: black !important;
 }
+
+.otpBox input{
+    border: 1px solid rgba(0, 0, 0,0.3) !important;
+    outline: none !important;
+}
+.otpBox input:focus{
+    border: 1px solid rgba(0, 0, 0,0.7) !important;
+}
+.otpPage .container{
+    height: 90vh;
+    display: flex;
+}

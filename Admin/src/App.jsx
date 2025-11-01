@@ -26,6 +26,10 @@ import SubCatList from './Pages/Categegory/SubCatList';
 import AddSubCategory from './Pages/Categegory/AddSubCategory';
 import Users from './Pages/Users/Index';
 import Orders from './Pages/Orders/Index';
+import ForgotPassword from './pages/ForgotPassword';
+import VerifyAccount from './pages/VerifyAccount';
+import ChangePassword from './pages/ChangePassword';
+
 
 
 
@@ -56,6 +60,7 @@ function App() {
     open: false,
     model : "",
   });
+  
 
   const [productRows, setProductRows] = useState([
     createData(
@@ -217,6 +222,42 @@ function App() {
         <>
           <section className="main">
             <Login />
+          </section>
+        </>
+      ),
+    },
+
+    {
+      path: "/forgot-password",
+      exact: true,
+      element: (
+        <>
+          <section className="main">
+            <ForgotPassword />
+          </section>
+        </>
+      ),
+    },
+
+    {
+      path: "/verify-account",
+      exact: true,
+      element: (
+        <>
+          <section className="main">
+            <VerifyAccount />
+          </section>
+        </>
+      ),
+    },
+
+    {
+      path: "/change-password",
+      exact: true,
+      element: (
+        <>
+          <section className="main">
+            <ChangePassword />
           </section>
         </>
       ),
